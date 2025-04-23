@@ -1,3 +1,5 @@
+This is a Large Language Model is built in only 50 lines. It can generate text with (mostly) correct grammar, givin that you input at least 3 words of context that are already in order in the training data.
+
 Context provided by Project Gutenberg (gutenberg.org)
 
 Books used:
