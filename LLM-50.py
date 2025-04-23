@@ -3,13 +3,12 @@
 import random
 import urllib.request
 
-url = "https://raw.githubusercontent.com/ZackIonic/llm-50/refs/heads/main/llm-context"
-reader = urllib.request.urlopen(url).read().decode('utf-8').splitlines()
+reader = urllib.request.urlopen("https://raw.githubusercontent.com/ZackIonic/llm-50/refs/heads/main/llm-context").read().decode('utf-8')
 
 window = []
 successor_map = {}
 
-for line in reader:
+for line in reader.splitlines():
     line = line.strip('_')
     for word in line.split():
         word = word.strip('_')
