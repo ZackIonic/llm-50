@@ -1,4 +1,4 @@
-# 50 line LLM Made by Zack Crosbie
+# 50 line LLM Made by ZackIonic
 
 import random
 import urllib.request
